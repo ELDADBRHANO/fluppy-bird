@@ -1,0 +1,21 @@
+body{
+  background: url("./images/wall.png") no-repeat center center fixed;
+  background-size: 100vw;
+  position: relative;
+
+}
+#player{
+  position: absolute;
+  width: 10vw;
+  height: 10vh;
+  top:10vh;
+}
+#play_game {
+  width: 30vw;
+  height: 20vh;
+  position: fixed;
+  left: 40vw;
+  top: 40vh;
+  font-size: 430%;    
+  background: linear-gradient(to right,#0000ff, #00ffff, #ff0000);
+}
